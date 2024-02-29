@@ -1,0 +1,9 @@
+importancia sobre css, nos explicó el pdf que subió donde vimos sobre adaptabilidad, experiencia del usuario.
+-Estructuras de las etiquetas
+-Principales etiquetas
+**Explicación sobre los atributos de style
+**Explicación de la diferencia de tener contenido dentro de un div a tenerlo fuera
+**Revisa en consola como se ve.
+Misa, descomenta el que dice "veDiferencia" es style.css para que veas como se agrupan los datos en un div
+Creamos una tabla en el footer
+nos explica un poco sobre ul y ul
