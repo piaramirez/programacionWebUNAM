@@ -9,3 +9,4 @@ Creamos una tabla en el footer
 nos explica un poco sobre ul y ul
 empezamos con los style deontro de la etiquetas, no por clases
 Repasa los tipos de colores que son aceptados
+vimoa backgroun-color
