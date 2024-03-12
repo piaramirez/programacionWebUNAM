@@ -92,11 +92,11 @@ nav.menu{
 }
 .citaAutor{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .citaAutor img{
     width: 10%;
-    image-rendering: auto;
+    height: 8%;
 }
 .citaAutor p{
     font-size: 15px;
@@ -104,4 +104,36 @@ nav.menu{
     margin: 10px 0;
     padding-bottom: 8px;
     border-bottom: 1px solid;
+}
+.contenedorTexto{
+width: 80%;
+}
+.contenedorFondoImg{
+    position: relative;
+    background-image: url("img/fondo.jpeg");
+    width: 100%;
+    height: 320px;
+    background-size: contain;
+
+}
+.Textodentro{
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; 
+    font-weight: bold;
+    color: white; 
+    font-size: 24px; 
+  
+}
+.contenedorFondoImg::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
 }
