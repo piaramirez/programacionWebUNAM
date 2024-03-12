@@ -1,0 +1,107 @@
+:root{
+    --fondos: #d1e3ff;
+    --primario: #18629a;
+    --titulos: "Pixelify Sans", sans-serif;
+    --textos: "Roboto Mono", monospace;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body{
+    background-color:var(--fondos);
+}
+
+.logo{
+    width: 35px;
+    cursor: pointer;
+}
+.title{
+    font-family: var(--titulos);
+    font-size: 50px;
+    font-style: italic;
+    color: var(--primario);
+    text-shadow: 5px  5px #fff;
+}
+
+.text{
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    
+}
+.text h1{
+    font-size: 50px;
+    font-family: var(--titulos);
+    letter-spacing: 21.5px;
+
+}
+.barra{
+    border-bottom: 2px solid;
+}
+nav.menu{
+    width: 98%;
+    margin: 10px auto;
+    display: flex;
+ 
+}
+.contenedorLogo{
+    width: 25%;
+    align-self: center;
+    margin: 0 0 0 25px;
+}
+.contenedorTitulo{
+    width: 75%;
+    align-self: center;
+    text-align: center;
+}
+.contenedor{
+    width: 98%;
+    margin: 5px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contenedorUl{
+    width: 20%;
+    height: 250px;
+}
+.lista{
+    list-style: none;
+    margin: 0 0  0 25px;
+
+}
+.lista li{
+    padding: 10px 20px;
+    border-bottom: 2px solid #000;
+    cursor: pointer;
+}
+.lista li:hover{
+    font-weight: bold;
+    color: #fff;
+    background-color: var(--primario);
+}
+.contenedorFPerfil{
+    text-align: center;
+}
+.contenedorFPerfil img{
+    width: 180px;
+    border-radius: 50%;
+    
+}
+.citaAutor{
+    display: flex;
+    justify-content: space-around;
+}
+.citaAutor img{
+    width: 10%;
+    image-rendering: auto;
+}
+.citaAutor p{
+    font-size: 15px;
+    font-family: var(--textos);
+    margin: 10px 0;
+    padding-bottom: 8px;
+    border-bottom: 1px solid;
+}
