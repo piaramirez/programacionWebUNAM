@@ -10,8 +10,7 @@ $(document).ready(function(){
     });
 
     $("#btnSubmit").click(function(event){
-        event.preventDefault(); // Evitar el envío del formulario por defecto
-        
+        event.preventDefault(); 
         if ($("#registro").is(":visible")) {
             var matriculaAleatoria = generarMatricula();
             $('#matricula').val(matriculaAleatoria);
@@ -20,7 +19,7 @@ $(document).ready(function(){
             console.log("Datos del formulario de inicio de sesión");
         }
 
-        // Recargar la página después de 5 segundos
+
         setTimeout(function() {
             location.reload();
         }, 5000);

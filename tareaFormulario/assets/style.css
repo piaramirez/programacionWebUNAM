@@ -69,7 +69,7 @@ body{
     margin: 10px auto;
     justify-content: space-evenly;
 }
-.btnEnviar{
+.btnEnviar, .inicioSesion{
     padding: 8px 18px;
     background-color: var(--secundario);
     border: transparent;
@@ -79,7 +79,7 @@ body{
     font-weight: bold;
     border-radius: 15px;
 }
-.btnEnviar:hover{
+.btnEnviar:hover, .inicioSesion:hover{
     background-color: var(--hover);
     color: var(--secundario);
 }
