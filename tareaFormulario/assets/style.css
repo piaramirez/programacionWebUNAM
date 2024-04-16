@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+:root{
+    --primario: #D59F0F54;
+    --secundario: #002B7A;
+    --hover: #D59F0F;
+}
+body{
+    background-image: url("img/fondo.jpg");
+    background-size: cover;
+}
+.formulario{
+        width: 400px;
+        height: 400px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: var(--secundario);
+        border-radius: 15px;
+        padding: 10px;
+        background-color: var(--primario);
+}
+.barraOpcion{
+    display: flex;
+    width: 90%;
+    margin: 5px auto;
+    padding: 10px 0;
+    justify-content: space-evenly;
+}
+.btnRegistro, .btnLogin{
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+.btnRegistro:hover, .btnLogin:hover{
+    border-bottom: 3px  solid var(--secundario);
+    background-color: var(--hover);
+    padding: 5px 15px;
+}
+.registro{
+    width: 90%;
+    margin: 10px auto;
+}
+.grupoFormulario{
+    display: flex;
+    margin: 10px auto;
+    width: 90%;
+
+}
+.grupoFormulario label{
+    font-size: 16px;
+    font-weight: bold;
+    width: 30%;
+}
+.grupoFormulario input{
+   width: 70%;
+}
+.login{
+    display: none;
+}
+.barraFormulario{
+    display: flex;
+    width: 90%;
+    margin: 10px auto;
+    justify-content: space-evenly;
+}
+.btnEnviar{
+    padding: 8px 18px;
+    background-color: var(--secundario);
+    border: transparent;
+    cursor: pointer;
+    font-size: 15px;
+    color: var(--hover);
+    font-weight: bold;
+    border-radius: 15px;
+}
+.btnEnviar:hover{
+    background-color: var(--hover);
+    color: var(--secundario);
+}
+.btnBorrar{
+    padding: 8px 18px;
+    background-color: var(--primario);
+    border: transparent;
+    cursor: pointer;
+    font-size: 15px;
+    color: #000;
+    font-weight: bold;
+    border-radius: 15px;
+}
+.btnBorrar:hover{
+    background-color: tomato;
+    color: #000;
+}
+.footerDiv{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 10px;
+}
